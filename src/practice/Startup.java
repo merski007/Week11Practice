@@ -34,6 +34,12 @@ public class Startup {
         for(int x : numberList){
             System.out.println(x);
         }
+        
+        // find index
+        int index = numberList.indexOf(1);
+        System.out.println("---------------");
+        System.out.println(index);
+        
     }            
     
 }
